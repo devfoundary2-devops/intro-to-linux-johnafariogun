@@ -1,0 +1,76 @@
+--- Wed Sep 10 07:04:16 WAT 2025 ---
+CPU Load: 0.00,0.00,0.00
+CPU Usage: 98.8% free
+MEMORY: Used: 486Mi / Total: 5.7Gi (85.26%)
+DISK: 2.2G used / 1007G total (1% used)
+NET: RX: 27380309 TX: 561863 Errors: 0
+PROCESSES (top process instances):
+      9 nginx
+      3 bash
+      2 systemd
+      2 sudo
+      2 sort
+TRACE (top CPU process):
+    PID    PPID CMD                         %MEM %CPU
+      1       0 /sbin/init                   0.2  0.0
+    345     344 -bash                        0.1  0.0
+    344     343 /init                        0.0  0.0
+     55       1 /usr/lib/systemd/systemd-jo  0.2  0.0
+
+--- Wed Sep 10 07:05:03 WAT 2025 ---
+CPU Load: 0.00,0.00,0.00
+CPU Usage: 98.8% free
+MEMORY: Used: 486Mi / Total: 5.7Gi (85.26%)
+DISK: 2.2G used / 1007G total (1% used)
+NET: RX: 27380919 TX: 562037 Errors: 0
+PROCESSES (top process instances):
+      9 nginx
+      3 bash
+      2 systemd
+      2 sort
+      2 cron
+TRACE (top CPU process):
+    PID    PPID CMD                         %MEM %CPU
+      1       0 /sbin/init                   0.2  0.0
+    345     344 -bash                        0.1  0.0
+    344     343 /init                        0.0  0.0
+     55       1 /usr/lib/systemd/systemd-jo  0.2  0.0
+
+--- Wed Sep 10 07:06:03 WAT 2025 ---
+CPU Load: 0.00,0.00,0.00
+CPU Usage: id,% free
+MEMORY: Used: 488Mi / Total: 5.7Gi (85.61%)
+DISK: 2.2G used / 1007G total (1% used)
+NET: RX: 27381267 TX: 562385 Errors: 0
+PROCESSES (top process instances):
+      9 nginx
+      3 bash
+      2 systemd
+      2 sort
+      2 cron
+TRACE (top CPU process):
+    PID    PPID CMD                         %MEM %CPU
+   5814    5812 bash /usr/local/bin/sysmon.  0.0  4.1
+      1       0 /sbin/init                   0.2  0.0
+    345     344 -bash                        0.1  0.0
+    344     343 /init                        0.0  0.0
+
+--- Wed Sep 10 07:07:03 WAT 2025 ---
+CPU Load: 0.00,0.00,0.00
+CPU Usage: 98.8% free
+MEMORY: Used: 491Mi / Total: 5.7Gi (86.14%)
+DISK: 2.2G used / 1007G total (1% used)
+NET: RX: 27382487 TX: 562733 Errors: 0
+PROCESSES (top process instances):
+      9 nginx
+      3 sh
+      3 bash
+      2 systemd
+      2 sudo
+TRACE (top CPU process):
+    PID    PPID CMD                         %MEM %CPU
+   5868    5867 /usr/bin/vim.basic /tmp/cro  0.2  0.2
+      1       0 /sbin/init                   0.2  0.0
+    345     344 -bash                        0.1  0.0
+    344     343 /init                        0.0  0.0
+
